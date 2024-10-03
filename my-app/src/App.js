@@ -3,11 +3,16 @@ import './App.css';
 import FunctionalComponent from './components/FunctionalComponents';
 import FunctionalComponentWithProps from './components/FunctionalComponentsWithProps';
 import StatfulComponent from './components/StatfulComponent';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
+import EventBinding from './components/EventBinding';
+import NestingComponents from './components/NestingComponents';
+
 
 function App() {
   return (
     <div className="App">
-      <StatfulComponent greeting="I am a statful component!"/>
+      <NestingComponents />
     </div>
   );
 }
