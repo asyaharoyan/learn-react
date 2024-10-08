@@ -7,12 +7,15 @@ import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import EventBinding from './components/EventBinding';
 import NestingComponents from './components/NestingComponents';
+import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCycleCDM';
+import HTTPRequest from './components/HTTPRequest';
 
 
 function App() {
   return (
     <div className="App">
-      <NestingComponents />
+      <HTTPRequest />
     </div>
   );
 }
